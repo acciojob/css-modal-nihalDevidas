@@ -6,11 +6,17 @@
 	top:0px;
 	left:0px;
 	background-color: rgba(0,0,0,0.5);
-	display:flex;
-	justify-content: center;
-	align-items:center;
-	display:block;
+	
+	
 }
 .display-modal{
 	display:none;
+}
+.modal-content{
+	background-color: ghostwhite;
+	width:fit-content;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
 }
